@@ -1,0 +1,268 @@
+:root {
+  /* No Metales */
+  --background-no-metales:#ff9717;
+  --border-no-metales:#fcb052;
+  --background-hover-no-metales:#ffad49;
+  --border-hover-no-metales:#ffc277;
+  --box-shadow-no-metales:#ffad49;
+  /* Metales Alcalinoterreos */
+  --background-metales-alcalinoterreos:#1780ff;
+  --border-metales-alcalinoterreos:#529afc;
+  --background-hover-metales-alcalinoterreos:#57a3ff;
+  --border-hover-metales-alcalinoterreos:#8dbdff;
+  --box-shadow-metales-alcalinoterreos:#519ffe;
+  /* Metales De Transicion */
+  --background-metales-de-transicion:#ff7317;
+  --border-metales-de-transicion:#fc8652;
+  --background-hover-metales-de-transicion:#ff934b;
+  --border-hover-metales-de-transicion:#ffa47d;
+  --box-shadow-metales-de-transicion:#ff9c5b;
+  /* Metal Alcalinos */
+  --background-metal-alcalinos:#ff176e;
+  --border-metal-alcalinos:#fc527d;
+  --background-hover-metal-alcalinos:#ff3d86;
+  --border-hover-metal-alcalinos:#ff86a5;
+  --box-shadow-metal-alcalinos:#ff0562;
+  /* Metales De Post Transicion */
+  --background-metales-de-post-transicion:#171fff;
+  --border-metales-de-post-transicion:#5260fc;
+  --background-hover-metales-de-post-transicion:#6066ff;
+  --border-hover-metales-de-post-transicion:#8892ff;
+  --box-shadow-metales-de-post-transicion:#171fff;
+  /* Metaloides */
+  --background-metaloides:#b9005d;
+  --border-metaloides:#db0061;
+  --background-hover-metaloides:#fc007f;
+  --border-hover-metaloides:#ff499a;
+  --box-shadow-metaloides:#b9005d;
+  /* Halogenos */
+  --background-halogenos:#1fb900;
+  --border-halogenos:#00db22;
+  --background-hover-halogenos:#28ed00;
+  --border-hover-halogenos:#49ff65;
+  --box-shadow-halogenos:#1fb900;
+  /* Gases Nobles */
+  --background-gases-nobles:#5b00b9;
+  --border-gases-nobles:#6000db;
+  --background-hover-gases-nobles:#8714fe;
+  --border-hover-gases-nobles:#9746fe;
+  --box-shadow-gases-nobles:#5b00b9;
+  /* Lantanidos */
+  --background-lantanidos:#b95900;
+  --border-lantanidos:#db6900;
+  --background-hover-lantanidos:#ef7402;
+  --border-hover-lantanidos:#fb7c07;
+  --box-shadow-lantanidos:#db6900;
+  /* Actinidos */
+  --background-actinidos:#00850b;
+  --border-actinidos:#12a000;
+  --background-hover-actinidos:#18bb25;
+  --border-hover-actinidos:#64da55;
+  --box-shadow-actinidos:#00850b;
+  /* Superactinidos */
+  --background-superactinidos:#dc0000;
+  --border-superactinidos:#fd4040;
+  --background-hover-superactinidos:#ff3333;
+  --border-hover-superactinidos:#fd7979;
+  --box-shadow-superactinidos:#ff2323;
+  /* Propiedades Iguales */
+  --text-shadow-hover:#ffffff;
+}
+
+* {
+  margin: 0;
+  user-select: none;
+}
+
+html > body {
+  justify-content: center;
+  align-content: center;
+  background: #18181f;
+  color: #fff;
+}
+
+.container {
+  width: 100%;
+  text-align: center;
+  display: grid;
+  grid: grid;
+  margin: 50rem 0 0 0 ;
+  grid-template-columns: repeat( 18, 1fr );
+  grid-template-rows: 0px, 0fr;
+}
+
+.Elemento:nth:child(1) {
+  grid-column: 1;
+  grid-row: 1;
+}
+.Elemento:nth-child(2) {
+  grid-column: 18;
+  grid-row: 1;
+}
+
+/* Propiedades de los contenedores de los elementos */
+
+.Elemento, .Cuadricula{
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+  background: #6f6f6f;
+  border: 2px solid #b9b9b9;
+  margin: 5px;
+  animation: Comienzo 3s;
+  font-family: Verdana;
+}
+
+.Cuadricula {
+  background: transparent;
+  border: 2px solid transparent;
+}
+
+@keyframes Comienzo {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+.Numero {
+  text-align: left;
+  font-size: 10px;
+  padding: 1px 0px 0px 5px;
+}
+
+.Simbolo {
+  text-align: center;
+  font-size: 30px;
+  padding: 0px;
+}
+
+.Nombre {
+  text-align: center;
+  font-size: 10px;
+}
+
+/* Estilos y tipos de elementos */
+
+.No-Metales, .Metales-Alcalinoterreos, .Metales-De-Transicion,
+.Metal-Alcalinos, .Metales-De-Post-Transicion, .Metaloides,
+.Halogenos, .Gases-Nobles, .Lantanidos, .Actinidos, .Superactinidos {
+  transition: .1s all;
+}
+
+.No-Metales:hover, .Metales-Alcalinoterreos:hover, .Metales-De-Transicion:hover,
+.Metal-Alcalinos:hover, .Metales-De-Post-Transicion:hover, .Metaloides:hover,
+.Halogenos:hover, .Gases-Nobles:hover, .Lantanidos:hover, .Actinidos:hover, .Superactinidos:hover {
+  transform: scale(1.1);
+  text-shadow: 0 0 1px var(--text-shadow-hover);
+}
+
+.No-Metales {
+  background: var(--background-no-metales);
+  border: 2px solid var(--border-no-metales);
+}
+.No-Metales:hover {
+  background: var(--background-hover-no-metales);
+  border: 2px solid var(--border-hover-no-metales);
+  box-shadow: 0 0 20px var(--box-shadow-no-metales);
+  
+}
+
+.Metales-Alcalinoterreos {
+  background: var(--background-metales-alcalinoterreos);
+  border: 2px solid var(--border-metales-alcalinoterreos);
+}
+.Metales-Alcalinoterreos:hover {
+  background: var(--background-hover-metales-alcalinoterreos);
+  border: 2px solid var(--border-hover-metales-alcalinoterreos);
+  box-shadow: 0 0 20px var(--box-shadow-metales-alcalinoterreos);
+  
+}
+.Metales-De-Transicion {
+  background: var(--background-metales-de-transicion);
+  border: 2px solid var(--border-metales-de-transicion);
+}
+.Metales-De-Transicion:hover {
+  background: var(--background-hover-metales-de-transicion);
+  border: 2px solid var(--border-hover-metales-de-transicion);
+  box-shadow: 0 0 20px var(--box-shadow-metales-de-transicion);
+  
+}
+.Metal-Alcalinos {
+  background: var(--background-metal-alcalinos);
+  border: 2px solid var(--border-metal-alcalinos);
+}
+.Metal-Alcalinos:hover {
+  background: var(--background-hover-metal-alcalinos);
+  border: 2px solid var(--border-hover-metal-alcalinos);
+  box-shadow: 0 0 20px var(--box-shadow-metal-alcalinos);
+}
+.Metales-De-Post-Transicion {
+  background: var(--background-metales-de-post-transicion);
+  border: 2px solid var(--border-metales-de-post-transicion);
+}
+.Metales-De-Post-Transicion:hover {
+  background: var(--background-hover-metales-de-post-transicion);
+  border: 2px solid var(--border-hover-metales-de-post-transicion);
+  box-shadow: 0 0 20px var(--box-shadow-metales-de-post-transicion);
+}
+.Metaloides {
+  background: var(--background-metaloides);
+  border: 2px solid var(--border-metaloides);
+}
+.Metaloides:hover {
+  background: var(--background-hover-metaloides);
+  border: 2px solid var(--border-hover-metaloides);
+  box-shadow: 0 0 20px var(--box-shadow-metaloides);
+}
+.Halogenos {
+  background: var(--background-halogenos);
+  border: 2px solid var(--border-halogenos);
+}
+.Halogenos:hover {
+  background: var(--background-hover-halogenos);
+  border: 2px solid var(--border-hover-halogenos);
+  box-shadow: 0 0 20px var(--box-shadow-halogenos);
+}
+.Gases-Nobles {
+  background: var(--background-gases-nobles);
+  border: 2px solid var(--border-gases-nobles);
+}
+.Gases-Nobles:hover {
+  background: var(--background-hover-gases-nobles);
+  border: 2px solid var(--border-hover-gases-nobles);
+  box-shadow: 0 0 20px var(--box-shadow-gases-nobles);
+}
+.Lantanidos {
+  background: var(--background-lantanidos);
+  border: 2px solid var(--border-lantanidos);
+}
+.Lantanidos:hover {
+  background: var(--background-hover-lantanidos);
+  border: 2px solid var(--border-hover-lantanidos);
+  box-shadow: 0 0 20px var(--box-shadow-lantanidos);
+}.Actinidos {
+  background: var(--background-actinidos);
+  border: 2px solid var(--border-actinidos);
+}
+.Actinidos:hover {
+  background: var(--background-hover-actinidos);
+  border: 2px solid var(--border-hover-actinidos);
+  box-shadow: 0 0 20px var(--box-shadow-actinidos);
+}
+.Superactinidos {
+  background: var(--background-superactinidos);
+  border: 2px solid var(--border-superactinidos);
+}
+.Superactinidos:hover {
+  background: var(--background-hover-superactinidos);
+  border: 2px solid var(--border-hover-superactinidos);
+  box-shadow: 0 0 20px var(--box-shadow-superactinidos);
+}
+.No-Elemento {
+  background: transparent;
+  border: 2px solid #fff;
+}

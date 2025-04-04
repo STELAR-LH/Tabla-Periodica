@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="es, en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css" type="text/css" media="all" />
+  <script src="script.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+  <div class="container" id="openDialog">
+    <div class="Elemento No-Metales" id="No-Metales">
+      <p class="Numero ">1</p>
+      <h2 class="Simbolo ">H</h2>
+      <p class="Nombre ">Hidrogeno</p>
+    </div>
+    
+    <div class="Elemento Gases-Nobles" id="Gases-Nobles">
+      <p class="Numero ">2</p>
+      <h2 class="Simbolo ">He</h2>
+      <p class="Nombre ">Helio</p>
+    </div>
+    <div class="Cuadricula"></div>
+    <div class="Cuadricula"></div>
+    <div class="Cuadricula"></div>
+    <div class="Cuadricula"></div>
+    <div class="Cuadricula"></div>
+    <div class="Cuadricula"></div>
+    <div class="Cuadricula"></div>
+    <div class="Cuadricula"></div>
+    <div class="Cuadricula"></div>
+    <div class="Cuadricula"></div>
+    <div class="Cuadricula"></div>
+    <div class="Cuadricula"></div>
+    <div class="Cuadricula"></div>
+    <div class="Cuadricula"></div>
+    <div class="Cuadricula"></div>
+    <div class="Cuadricula"></div>
+    <div class="Elemento Metal-Alcalinos" id="Metal-Alcalinos">
+      <p class="Numero ">3</p>
+      <h2 class="Simbolo ">Li</h2>
+      <p class="Nombre ">Litio</p>
+    </div>
+    <div class="Elemento Metales-Alcalinoterreos" id="Metales-Alcalinoterreos">
+      <p class="Numero ">4</p>
+      <h2 class="Simbolo ">Be</h2>
+      <p class="Nombre ">Berilio</p>
+    </div>
+    <div class="Cuadricula"></div>
+    <div class="Cuadricula"></div>
+    <div class="Cuadricula"></div>
+    <div class="Cuadricula"></div>
+    <div class="Cuadricula"></div>
+    <div class="Cuadricula"></div>
+    <div class="Cuadricula"></div>
+    <div class="Cuadricula"></div>
+    <div class="Cuadricula"></div>
+    <div class="Cuadricula"></div>
+    <div class="Elemento Metaloides" id="Metaloides">
+      <p class="Numero ">5</p>
+      <h2 class="Simbolo ">B</h2>
+      <p class="Nombre ">Boro</p>
+    </div>
+    <div class="Elemento No-Metales" id="No-Metales">
+      <p class="Numero ">6</p>
+      <h2 class="Simbolo ">C</h2>
+      <p class="Nombre ">Carbono</p>
+    </div>
+    <div class="Elemento No-Metales" id="No-Metales">
+      <p class="Numero ">7</p>
+      <h2 class="Simbolo ">N</h2>
+      <p class="Nombre ">Nitrógeno</p>
+    </div>
+    <div class="Elemento No-Metales" id="No-Metales">
+      <p class="Numero ">8</p>
+      <h2 class="Simbolo ">O</h2>
+      <p class="Nombre ">Oxigeno</p>
+    </div>
+    <div class="Elemento Halogenos" id="Halogenos">
+      <p class="Numero ">9</p>
+      <h2 class="Simbolo ">F</h2>
+      <p class="Nombre ">Flúor</p>
+    </div>
+    <div class="Elemento Gases-Nobles" id="Gases-Nobles">
+      <p class="Numero ">10</p>
+      <h2 class="Simbolo ">Ne</h2>
+      <p class="Nombre ">Neón</p>
+    </div>
+    <div class="Elemento Metal-Alcalinos" id="Metal-Alcalinos">
+      <p class="Numero ">11</p>
+      <h2 class="Simbolo ">Na</h2>
+      <p class="Nombre ">Sodio</p>
+    </div>
+    <div class="Elemento Metales-Alcalinoterreos" id="Metales-Alcalinoterreos">
+      <p class="Numero ">12</p>
+      <h2 class="Simbolo ">Mg</h2>
+      <p class="Nombre ">Magnesio</p>
+    </div>
+    <div class="Cuadricula"></div>
+    <div class="Cuadricula"></div>
+    <div class="Cuadricula"></div>
+    <div class="Cuadricula"></div>
+    <div class="Cuadricula"></div>
+    <div class="Cuadricula"></div>
+    <div class="Cuadricula"></div>
+    <div class="Cuadricula"></div>
+    <div class="Cuadricula"></div>
+    <div class="Cuadricula"></div>
+    <div class="Elemento Metales-De-Post-Transicion" id="Metales-De-Post-Transicion">
+      <p class="Numero ">13</p>
+      <h2 class="Simbolo ">Al</h2>
+      <p class="Nombre ">Aluminio</p>
+    </div>
+    <div class="Elemento Metaloides" id="Metaloides">
+      <p class="Numero ">14</p>
+      <h2 class="Simbolo ">Si</h2>
+      <p class="Nombre ">Silicio</p>
+    </div>
+    <div class="Elemento No-Metales" id="No-Metales">
+      <p class="Numero ">15</p>
+      <h2 class="Simbolo ">P</h2>
+      <p class="Nombre ">Fósforo</p>
+    </div>
+    <div class="Elemento No-Metales" id="No-Metales">
+      <p class="Numero ">16</p>
+      <h2 class="Simbolo ">S</h2>
+      <p class="Nombre ">Azufre</p>
+    </div>
+    <div class="Elemento Halogenos" id="Halogenos">
+      <p class="Numero ">17</p>
+      <h2 class="Simbolo ">Cl</h2>
+      <p class="Nombre ">Cloro</p>
+    </div>
+    <div class="Elemento Gases-Nobles" id="Gases-Nobles">
+      <p class="Numero ">18</p>
+      <h2 class="Simbolo ">Ar</h2>
+      <p class="Nombre ">Argón</p>
+    </div>
+    <div class="Elemento Metal-Alcalinos" id="Metal-Alcalinos">
+      <p class="Numero ">19</p>
+      <h2 class="Simbolo ">K</h2>
+      <p class="Nombre ">Potasio</p>
+    </div>
+    <div class="Elemento Metales-Alcalinoterreos" id="Metales-Alcalinoterreos">
+      <p class="Numero ">20</p>
+      <h2 class="Simbolo ">Ca</h2>
+      <p class="Nombre ">Calcio</p>
+    </div>
+    <div class="Elemento Metales-De-Transicion" id="Metales-De-Transicion">
+      <p class="Numero ">21</p>
+      <h2 class="Simbolo ">Sc</h2>
+      <p class="Nombre ">Escandio</p>
+    </div>
+    <div class="Elemento Metales-De-Transicion" id="Metales-De-Transicion">
+      <p class="Numero ">22</p>
+      <h2 class="Simbolo ">Ti</h2>
+      <p class="Nombre ">Titanio</p>
+    </div>
+    <div class="Elemento Metales-De-Transicion" id="Metales-De-Transicion">
+      <p class="Numero ">23</p>
+      <h2 class="Simbolo ">V</h2>
+      <p class="Nombre ">Vanadio</p>
+    </div>
+    <div class="Elemento Metales-De-Transicion" id="Metales-De-Transicion">
+      <p class="Numero ">24</p>
+      <h2 class="Simbolo ">Cr</h2>
+      <p class="Nombre ">Cromo</p>
+    </div>
+    <div class="Elemento Metales-De-Transicion" id="Metales-De-Transicion">
+      <p class="Numero ">25</p>
+      <h2 class="Simbolo ">Mn</h2>
+      <p class="Nombre ">Manganeso</p>
+    </div>
+    <div class="Elemento Metales-De-Transicion" id="Metales-De-Transicion">
+      <p class="Numero ">26</p>
+      <h2 class="Simbolo ">Fe</h2>
+      <p class="Nombre ">Hierro</p>
+    </div>
+    <div class="Elemento Metales-De-Transicion" id="Metales-De-Transicion">
+      <p class="Numero ">27</p>
+      <h2 class="Simbolo ">Cp</h2>
+      <p class="Nombre ">Cobalto</p>
+    </div>
+    <div class="Elemento Metales-De-Transicion" id="Metales-De-Transicion">
+      <p class="Numero ">28</p>
+      <h2 class="Simbolo ">Ni</h2>
+      <p class="Nombre ">Níquel</p>
+    </div>
+    <div class="Elemento Metales-De-Transicion" id="Metales-De-Transicion">
+      <p class="Numero ">29</p>
+      <h2 class="Simbolo ">Cu</h2>
+      <p class="Nombre ">Cobre</p>
+    </div>
+    <div class="Elemento Metales-De-Transicion" id="Metales-De-Transicion">
+      <p class="Numero ">30</p>
+      <h2 class="Simbolo ">Zn</h2>
+      <p class="Nombre ">zinc</p>
+    </div>
+    <div class="Elemento Metales-De-Post-Transicion" id="Metales-De-Post-Transicion">
+      <p class="Numero ">31</p>
+      <h2 class="Simbolo ">Ga</h2>
+      <p class="Nombre ">Galio</p>
+    </div>
+    <div class="Elemento Metaloides" id="Metaloides">
+      <p class="Numero ">32</p>
+      <h2 class="Simbolo ">Ge</h2>
+      <p class="Nombre ">Germanio</p>
+    </div>
+    <div class="Elemento Metaloides" id="Metaloides">
+      <p class="Numero ">33</p>
+      <h2 class="Simbolo ">As</h2>
+      <p class="Nombre ">Arsénico</p>
+    </div>
+    <div class="Elemento No-Metales" id="No-Metales">
+      <p class="Numero ">34</p>
+      <h2 class="Simbolo ">Se</h2>
+      <p class="Nombre ">Selenio</p>
+    </div>
+    <div class="Elemento Halogenos" id="Halogenos">
+      <p class="Numero ">35</p>
+      <h2 class="Simbolo ">Br</h2>
+      <p class="Nombre ">Bromo</p>
+    </div>
+    <div class="Elemento Gases-Nobles" id="Gases-Nobles">
+      <p class="Numero ">36</p>
+      <h2 class="Simbolo ">Kr</h2>
+      <p class="Nombre ">Kriptón</p>
+    </div>
+    <div class="Elemento Metal-Alcalinos" id="Metal-Alcalinos">
+      <p class="Numero ">37</p>
+      <h2 class="Simbolo ">Rb</h2>
+      <p class="Nombre ">Rubidio</p>
+    </div>
+    <div class="Elemento Metales-Alcalinoterreos" id="Metales-Alcalinoterreos">
+      <p class="Numero ">38</p>
+      <h2 class="Simbolo ">Sr</h2>
+      <p class="Nombre ">Estroncio</p>
+    </div>
+    <div class="Elemento Metales-De-Transicion" id="Metales-De-Transicion">
+      <p class="Numero ">39</p>
+      <h2 class="Simbolo ">Y</h2>
+      <p class="Nombre ">Itrio</p>
+    </div>
+    <div class="Elemento Metales-De-Transicion" id="Metales-De-Transicion">
+      <p class="Numero ">40</p>
+      <h2 class="Simbolo ">Zr</h2>
+      <p class="Nombre ">Zirconio</p>
+    </div>
+    <div class="Elemento Metales-De-Transicion" id="Metales-De-Transicion">
+      <p class="Numero ">41</p>
+      <h2 class="Simbolo ">Nb</h2>
+      <p class="Nombre ">Niobio</p>
+    </div>
+    <div class="Elemento Metales-De-Transicion" id="Metales-De-Transicion">
+      <p class="Numero ">42</p>
+      <h2 class="Simbolo ">Mo</h2>
+      <p class="Nombre ">Molibdeno</p>
+    </div>
+    <div class="Elemento Metales-De-Transicion" id="Metales-De-Transicion">
+      <p class="Numero ">43</p>
+      <h2 class="Simbolo ">Tc</h2>
+      <p class="Nombre ">Tecnecio</p>
+    </div>
+    <div class="Elemento Metales-De-Transicion" id="Metales-De-Transicion">
+      <p class="Numero ">44</p>
+      <h2 class="Simbolo ">Ru</h2>
+      <p class="Nombre ">Rutenio</p>
+    </div>
+    <div class="Elemento Metales-De-Transicion" id="Metales-De-Transicion">
+      <p class="Numero ">45</p>
+      <h2 class="Simbolo ">Rh</h2>
+      <p class="Nombre ">Rodio</p>
+    </div>
+    <div class="Elemento Metales-De-Transicion" id="Metales-De-Transicion">
+      <p class="Numero ">46</p>
+      <h2 class="Simbolo ">Pd</h2>
+      <p class="Nombre ">Paladio</p>
+    </div>
+    <div class="Elemento Metales-De-Transicion" id="Metales-De-Transicion">
+      <p class="Numero ">47</p>
+      <h2 class="Simbolo ">Ag</h2>
+      <p class="Nombre ">Plata</p>
+    </div>
+    <div class="Elemento Metales-De-Transicion" id="Metales-De-Transicion">
+      <p class="Numero ">48</p>
+      <h2 class="Simbolo ">Cd</h2>
+      <p class="Nombre ">Cadmio</p>
+    </div>
+    <div class="Elemento Metales-De-Post-Transicion" id="Metales-De-Post-Transicion">
+      <p class="Numero ">49</p>
+      <h2 class="Simbolo ">In</h2>
+      <p class="Nombre ">Indio</p>
+    </div>
+    <div class="Elemento Metales-De-Post-Transicion" id="Metales-De-Post-Transicion">
+      <p class="Numero ">50</p>
+      <h2 class="Simbolo ">Sn</h2>
+      <p class="Nombre ">Estaño</p>
+    </div>
+    <div class="Elemento Metaloides" id="Metaloides">
+      <p class="Numero ">51</p>
+      <h2 class="Simbolo ">Sb</h2>
+      <p class="Nombre ">Antimonio</p>
+    </div>
+    <div class="Elemento Metaloides" id="Metaloides">
+      <p class="Numero ">52</p>
+      <h2 class="Simbolo ">Te</h2>
+      <p class="Nombre ">Telurio</p>
+    </div>
+    <div class="Elemento Halogenos" id="Halogenos">
+      <p class="Numero ">53</p>
+      <h2 class="Simbolo ">I</h2>
+      <p class="Nombre ">Yodo</p>
+    </div>
+    <div class="Elemento Gases-Nobles" id="Gases-Nobles">
+      <p class="Numero ">54</p>
+      <h2 class="Simbolo ">Xe</h2>
+      <p class="Nombre ">Xenón</p>
+    </div>
+    <div class="Elemento Metal-Alcalinos" id="Metal-Alcalinos">
+      <p class="Numero ">55</p>
+      <h2 class="Simbolo ">Cs</h2>
+      <p class="Nombre ">Cesio</p>
+    </div>
+    <div class="Elemento Metales-Alcalinoterreos" id="Metales-Alcalinoterreos">
+      <p class="Numero ">56</p>
+      <h2 class="Simbolo ">Ba</h2>
+      <p class="Nombre ">Badio</p>
+    </div>
+    <div class="Elemento No-Elemento" id="No-Elemento">
+      <p class="Numero ">57-71</p>
+      <h2 class="Simbolo " style="color:transparent;">X</h2>
+      <p class="Nombre ">La-Lu</p>
+    </div>
+    <div class="Elemento Metales-De-Transicion" id="Metales-De-Transicion">
+      <p class="Numero ">72</p>
+      <h2 class="Simbolo ">Hf</h2>
+      <p class="Nombre ">Hafnio</p>
+    </div>
+    <div class="Elemento Metales-De-Transicion" id="Metales-De-Transicion">
+      <p class="Numero ">73</p>
+      <h2 class="Simbolo ">Ta</h2>
+      <p class="Nombre ">Tántalo</p>
+    </div>
+    <div class="Elemento Metales-De-Transicion" id="Metales-De-Transicion">
+      <p class="Numero ">74</p>
+      <h2 class="Simbolo ">W</h2>
+      <p class="Nombre ">Wolfranio</p>
+    </div>
+    <div class="Elemento Metales-De-Transicion" id="Metales-De-Transicion">
+      <p class="Numero ">75</p>
+      <h2 class="Simbolo ">Re</h2>
+      <p class="Nombre ">Renio</p>
+    </div>
+    <div class="Elemento Metales-De-Transicion" id="Metales-De-Transicion">
+      <p class="Numero ">76</p>
+      <h2 class="Simbolo ">Os</h2>
+      <p class="Nombre ">Osmio</p>
+    </div>
+    <div class="Elemento Metales-De-Transicion" id="Metales-De-Transicion">
+      <p class="Numero ">77</p>
+      <h2 class="Simbolo ">Ir</h2>
+      <p class="Nombre ">Iridio</p>
+    </div>
+    <div class="Elemento Metales-De-Transicion" id="Metales-De-Transicion">
+      <p class="Numero ">78</p>
+      <h2 class="Simbolo ">Pt</h2>
+      <p class="Nombre ">Platino</p>
+    </div>
+    <div class="Elemento Metales-De-Transicion" id="Metales-De-Transicion">
+      <p class="Numero ">79</p>
+      <h2 class="Simbolo ">Au</h2>
+      <p class="Nombre ">Oro</p>
+    </div>
+    <div class="Elemento Metales-De-Transicion" id="Metales-De-Transicion">
+      <p class="Numero ">80</p>
+      <h2 class="Simbolo ">Hg</h2>
+      <p class="Nombre ">Mercurio</p>
+    </div>
+    <div class="Elemento Metales-De-Post-Transicion" id="Metales-De-Post-Transicion">
+      <p class="Numero ">81</p>
+      <h2 class="Simbolo ">Tl</h2>
+      <p class="Nombre ">Talio</p>
+    </div>
+    <div class="Elemento Metales-De-Post-Transicion" id="Metales-De-Post-Transicion">
+      <p class="Numero ">82</p>
+      <h2 class="Simbolo ">Pb</h2>
+      <p class="Nombre ">Plomo</p>
+    </div>
+    <div class="Elemento Metales-De-Post-Transicion" id="Metales-De-Post-Transicion">
+      <p class="Numero ">83</p>
+      <h2 class="Simbolo ">Bi</h2>
+      <p class="Nombre ">Bismuto</p>
+    </div>
+    <div class="Elemento Metaloides" id="Metaloides">
+      <p class="Numero ">84</p>
+      <h2 class="Simbolo ">Po</h2>
+      <p class="Nombre ">Polonio</p>
+    </div>
+    <div class="Elemento Halogenos" id="Halogenos">
+      <p class="Numero ">85</p>
+      <h2 class="Simbolo ">At</h2>
+      <p class="Nombre ">Ástato</p>
+    </div>
+    <div class="Elemento Gases-Nobles" id="Gases-Nobles">
+      <p class="Numero ">86</p>
+      <h2 class="Simbolo ">Rn</h2>
+      <p class="Nombre ">Radón</p>
+    </div>
+    <div class="Elemento Metal-Alcalinos" id="Metal-Alcalinos">
+      <p class="Numero ">87</p>
+      <h2 class="Simbolo ">Fr</h2>
+      <p class="Nombre ">Francio</p>
+    </div>
+    <div class="Elemento Metales-Alcalinoterreos" id="Metales-Alcalinoterreos">
+      <p class="Numero ">88</p>
+      <h2 class="Simbolo ">Ra</h2>
+      <p class="Nombre ">Radio</p>
+    </div>
+    <div class="Elemento No-Elemento" id="Metales-De-Transicion">
+      <p class="Numero ">89-103</p>
+      <h2 class="Simbolo " style="color:transparent;">X</h2>
+      <p class="Nombre ">Ac-Lr</p>
+    </div>
+    <div class="Elemento Metales-De-Transicion" id="Metales-De-Transicion">
+      <p class="Numero ">104</p>
+      <h2 class="Simbolo ">Rf</h2>
+      <p class="Nombre ">Rutherfordio</p>
+    </div>
+    <div class="Elemento Metales-De-Transicion" id="Metales-De-Transicion">
+      <p class="Numero ">105</p>
+      <h2 class="Simbolo ">Db</h2>
+      <p class="Nombre ">Dubnio</p>
+    </div>
+    <div class="Elemento Metales-De-Transicion" id="Metales-De-Transicion">
+      <p class="Numero ">106</p>
+      <h2 class="Simbolo ">Sg</h2>
+      <p class="Nombre ">Seaborgio</p>
+    </div>
+    <div class="Elemento Metales-De-Transicion" id="Metales-De-Transicion">
+      <p class="Numero ">107</p>
+      <h2 class="Simbolo ">Bh</h2>
+      <p class="Nombre ">Bohrio</p>
+    </div>
+    <div class="Elemento Metales-De-Transicion" id="Metales-De-Transicion">
+      <p class="Numero ">108</p>
+      <h2 class="Simbolo ">Hs</h2>
+      <p class="Nombre ">Hasio</p>
+    </div>
+    <div class="Elemento Metales-De-Transicion" id="Metales-De-Transicion">
+      <p class="Numero ">109</p>
+      <h2 class="Simbolo ">Mt</h2>
+      <p class="Nombre ">Meitnerio</p>
+    </div>
+    <div class="Elemento Metales-De-Transicion" id="Metales-De-Transicion">
+      <p class="Numero ">110</p>
+      <h2 class="Simbolo ">Ds</h2>
+      <p class="Nombre ">Darmstatio</p>
+    </div>
+    <div class="Elemento Metales-De-Transicion" id="Metales-De-Transicion">
+      <p class="Numero ">111</p>
+      <h2 class="Simbolo ">Rg</h2>
+      <p class="Nombre ">Roentgenio</p>
+    </div>
+    <div class="Elemento Metales-De-Transicion" id="Metales-De-Transicion">
+      <p class="Numero ">112</p>
+      <h2 class="Simbolo ">Cn</h2>
+      <p class="Nombre ">Copernicio</p>
+    </div>
+    <div class="Elemento Metales-De-Post-Transicion" id="Metales-De-Post-Transicion">
+      <p class="Numero ">113</p>
+      <h2 class="Simbolo ">Nh</h2>
+      <p class="Nombre ">Nihonio</p>
+    </div>
+    <div class="Elemento Metales-De-Post-Transicion" id="Metales-De-Post-Transicion">
+      <p class="Numero ">114</p>
+      <h2 class="Simbolo ">Fl</h2>
+      <p class="Nombre ">Flerovio</p>
+    </div>
+    <div class="Elemento Metales-De-Post-Transicion" id="Metales-De-Post-Transicion">
+      <p class="Numero ">115</p>
+      <h2 class="Simbolo ">Mc</h2>
+      <p class="Nombre ">Moscocio</p>
+    </div>
+    <div class="Elemento Metales-De-Post-Transicion" id="Metales-De-Post-Transicion">
+      <p class="Numero ">116</p>
+      <h2 class="Simbolo ">Lv</h2>
+      <p class="Nombre ">Livermonio</p>
+    </div>
+    <div class="Elemento Halogenos" id="Halogenos">
+      <p class="Numero ">117</p>
+      <h2 class="Simbolo ">Ts</h2>
+      <p class="Nombre ">Teneso</p>
+    </div>
+    <div class="Elemento Gases-Nobles" id="Gases-Nobles">
+      <p class="Numero ">118</p>
+      <h2 class="Simbolo ">Og</h2>
+      <p class="Nombre ">Oganesón</p>
+    </div>
+    <div class="Elemento Metal-Alcalinos" id="Metal-Alcalinos">
+      <p class="Numero ">119</p>
+      <h2 class="Simbolo ">Uue</h2>
+      <p class="Nombre ">Ununennio</p>
+    </div>
+    <div class="Elemento Metales-Alcalinoterreos" id="Metales-Alcalinoterreos">
+      <p class="Numero ">120</p>
+      <h2 class="Simbolo ">Ubn</h2>
+      <p class="Nombre ">Unbinilio</p>
+    </div>
+    <div class="Elemento No-Elemento" id="No-Elemento">
+      <p class="Numero ">121-127</p>
+      <h2 class="Simbolo " style="color:transparent;">X</h2>
+      <p class="Nombre ">Ubu-Ubs</p>
+    </div>
+    <div class="Cuadricula"></div>
+    <div class="Cuadricula"></div>
+    <div class="Cuadricula"></div>
+    <div class="Cuadricula"></div>
+    <div class="Cuadricula"></div>
+    <div class="Cuadricula"></div>
+    <div class="Cuadricula"></div>
+    <div class="Cuadricula"></div>
+    <div class="Cuadricula"></div>
+    <div class="Cuadricula"></div>
+    <div class="Cuadricula"></div>
+    <div class="Cuadricula"></div>
+    <div class="Cuadricula"></div>
+    <div class="Cuadricula"></div>
+    <div class="Cuadricula"></div>
+    <div class="Cuadricula"></div>
+    <div class="Cuadricula"></div>
+    <div class="Cuadricula"></div>
+    <div class="Cuadricula"></div>
+    <div class="Cuadricula"></div>
+    <div class="Cuadricula"></div>
+    <div class="Cuadricula"></div>
+    <div class="Cuadricula"></div>
+    <div class="Cuadricula"></div>
+    <div class="Cuadricula"></div>
+    <div class="Cuadricula"></div>
+    <div class="Cuadricula"></div>
+    <div class="Cuadricula"></div>
+    <div class="Cuadricula"></div>
+    <div class="Cuadricula"></div>
+    <div class="Cuadricula"></div>
+    <div class="Cuadricula"></div>
+    <div class="Cuadricula"></div>
+    <div class="Cuadricula"></div>
+    <div class="Cuadricula"></div>
+      <div class="Elemento Lantanidos" id="Lantanidos">
+      <p class="Numero ">57</p>
+      <h2 class="Simbolo ">La</h2>
+      <p class="Nombre ">Lantano</p>
+    </div>
+    <div class="Elemento Lantanidos" id="Lantanidos">
+      <p class="Numero ">58</p>
+      <h2 class="Simbolo ">Ce</h2>
+      <p class="Nombre ">Cerio</p>
+    </div>
+    <div class="Elemento Lantanidos" id="Lantanidos">
+      <p class="Numero ">59</p>
+      <h2 class="Simbolo ">Pr</h2>
+      <p class="Nombre ">Praseodimio</p>
+    </div>
+    <div class="Elemento Lantanidos" id="Lantanidos">
+      <p class="Numero ">60</p>
+      <h2 class="Simbolo ">Nd</h2>
+      <p class="Nombre ">Neodimio</p>
+    </div>
+    <div class="Elemento Lantanidos" id="Lantanidos">
+      <p class="Numero ">61</p>
+      <h2 class="Simbolo ">Pm</h2>
+      <p class="Nombre ">Prometio</p>
+    </div>
+    <div class="Elemento Lantanidos" id="Lantanidos">
+      <p class="Numero ">62</p>
+      <h2 class="Simbolo ">Sm</h2>
+      <p class="Nombre ">Samario</p>
+    </div>
+    <div class="Elemento Lantanidos" id="Lantanidos">
+      <p class="Numero ">63</p>
+      <h2 class="Simbolo ">Eu</h2>
+      <p class="Nombre ">Europio</p>
+    </div>
+    <div class="Elemento Lantanidos" id="Lantanidos">
+      <p class="Numero ">64</p>
+      <h2 class="Simbolo ">Gd</h2>
+      <p class="Nombre ">Gadolinio</p>
+    </div>
+    <div class="Elemento Lantanidos" id="Lantanidos">
+      <p class="Numero ">65</p>
+      <h2 class="Simbolo ">Tb</h2>
+      <p class="Nombre ">Terbio</p>
+    </div>
+    <div class="Elemento Lantanidos" id="Lantanidos">
+      <p class="Numero ">66</p>
+      <h2 class="Simbolo ">Dy</h2>
+      <p class="Nombre ">Disprosio</p>
+    </div>
+    <div class="Elemento Lantanidos" id="Lantanidos">
+      <p class="Numero ">67</p>
+      <h2 class="Simbolo ">Ho</h2>
+      <p class="Nombre ">Holmio</p>
+    </div>
+    <div class="Elemento Lantanidos" id="Lantanidos">
+      <p class="Numero ">68</p>
+      <h2 class="Simbolo ">Er</h2>
+      <p class="Nombre ">Erbio</p>
+    </div>
+    <div class="Elemento Lantanidos" id="Lantanidos">
+      <p class="Numero ">69</p>
+      <h2 class="Simbolo ">Tm</h2>
+      <p class="Nombre ">Tulio</p>
+    </div>
+    <div class="Elemento Lantanidos" id="Lantanidos">
+      <p class="Numero ">70</p>
+      <h2 class="Simbolo ">Yb</h2>
+      <p class="Nombre ">Iterbio</p>
+    </div>
+    <div class="Elemento Lantanidos" id="Lantanidos">
+      <p class="Numero ">71</p>
+      <h2 class="Simbolo ">Lu</h2>
+      <p class="Nombre ">Lutecio</p>
+    </div>
+    <div class="Cuadricula"></div>
+    <div class="Cuadricula"></div>
+    <div class="Cuadricula"></div>
+    <div class="Elemento Actinidos" id="Actinidos">
+      <p class="Numero ">89</p>
+      <h2 class="Simbolo ">Ac</h2>
+      <p class="Nombre ">actinio</p>
+    </div>
+    <div class="Elemento Actinidos" id="Actinidos">
+      <p class="Numero ">90</p>
+      <h2 class="Simbolo ">Th</h2>
+      <p class="Nombre ">Torio</p>
+    </div>
+    <div class="Elemento Actinidos" id="Actinidos">
+      <p class="Numero ">91</p>
+      <h2 class="Simbolo ">Pa</h2>
+      <p class="Nombre ">Protactinio</p>
+    </div>
+    <div class="Elemento Actinidos" id="Actinidos">
+      <p class="Numero ">92</p>
+      <h2 class="Simbolo ">U</h2>
+      <p class="Nombre ">Uranio</p>
+    </div>
+    <div class="Elemento Actinidos" id="Actinidos">
+      <p class="Numero ">93</p>
+      <h2 class="Simbolo ">Np</h2>
+      <p class="Nombre ">Neptunio</p>
+    </div>
+    <div class="Elemento Actinidos" id="Actinidos">
+      <p class="Numero ">94</p>
+      <h2 class="Simbolo ">Pu</h2>
+      <p class="Nombre ">Plutonio</p>
+    </div>
+    <div class="Elemento Actinidos" id="Actinidos">
+      <p class="Numero ">95</p>
+      <h2 class="Simbolo ">Am</h2>
+      <p class="Nombre ">Americio</p>
+    </div>
+    <div class="Elemento Actinidos" id="Actinidos">
+      <p class="Numero ">96</p>
+      <h2 class="Simbolo ">Cm</h2>
+      <p class="Nombre ">Curio</p>
+    </div>
+    <div class="Elemento Actinidos" id="Actinidos">
+      <p class="Numero ">89</p>
+      <h2 class="Simbolo ">Ac</h2>
+      <p class="Nombre ">actinio</p>
+    </div>
+    <div class="Elemento Actinidos" id="Actinidos">
+      <p class="Numero ">90</p>
+      <h2 class="Simbolo ">Th</h2>
+      <p class="Nombre ">Torio</p>
+    </div>
+    <div class="Elemento Actinidos" id="Actinidos">
+      <p class="Numero ">91</p>
+      <h2 class="Simbolo ">Pa</h2>
+      <p class="Nombre ">Protactinio</p>
+    </div>
+    <div class="Elemento Actinidos" id="Actinidos">
+      <p class="Numero ">92</p>
+      <h2 class="Simbolo ">U</h2>
+      <p class="Nombre ">Uranio</p>
+    </div>
+    <div class="Elemento Actinidos" id="Actinidos">
+      <p class="Numero ">93</p>
+      <h2 class="Simbolo ">Np</h2>
+      <p class="Nombre ">Neptunio</p>
+    </div>
+    <div class="Elemento Actinidos" id="Actinidos">
+      <p class="Numero ">94</p>
+      <h2 class="Simbolo ">Pu</h2>
+      <p class="Nombre ">Plutonio</p>
+    </div>
+    <div class="Elemento Actinidos" id="Actinidos">
+      <p class="Numero ">95</p>
+      <h2 class="Simbolo ">Am</h2>
+      <p class="Nombre ">Americio</p>
+    </div>
+    <div class="Cuadricula"></div>
+    <div class="Cuadricula"></div>
+    <div class="Cuadricula"></div>
+    <div class="Elemento Superactinidos" id="Superactinidos">
+      <p class="Numero ">96</p>
+      <h2 class="Simbolo ">Cm</h2>
+      <p class="Nombre ">Curio</p>
+    </div>
+    <div class="Elemento Superactinidos" id="Superactinidos">
+      <p class="Numero ">97</p>
+      <h2 class="Simbolo ">Bk</h2>
+      <p class="Nombre ">Berkelio</p>
+    </div>
+    <div class="Elemento Superactinidos" id="Superactinidos">
+      <p class="Numero ">98</p>
+      <h2 class="Simbolo ">Cf</h2>
+      <p class="Nombre ">Californio</p>
+    </div>
+    <div class="Elemento Superactinidos" id="Superactinidos">
+      <p class="Numero ">99</p>
+      <h2 class="Simbolo ">Es</h2>
+      <p class="Nombre ">Einstenio</p>
+    </div>
+    <div class="Elemento Superactinidos" id="Superactinidos">
+      <p class="Numero ">100</p>
+      <h2 class="Simbolo ">Fm</h2>
+      <p class="Nombre ">Fermio</p>
+    </div>
+    <div class="Elemento Superactinidos" id="Superactinidos">
+      <p class="Numero ">101</p>
+      <h2 class="Simbolo ">Md</h2>
+      <p class="Nombre ">Mendelevio</p>
+    </div>
+    <div class="Elemento Superactinidos" id="Superactinidos">
+      <p class="Numero ">102</p>
+      <h2 class="Simbolo ">No</h2>
+      <p class="Nombre ">Nobelio</p>
+    </div>
+    <div class="Elemento Superactinidos" id="Superactinidos">
+      <p class="Numero ">103</p>
+      <h2 class="Simbolo ">Lr</h2>
+      <p class="Nombre ">Lawrencio</p>
+    </div>
+    <div class="Cuadricula"></div>
+    <div class="Cuadricula"></div>
+    <div class="Cuadricula"></div>
+    <div class="Cuadricula"></div>
+    <div class="Cuadricula"></div>
+    <div class="Cuadricula"></div>
+    <div class="Cuadricula"></div>
+    <div class="Cuadricula"></div>
+  </div>
+</body>
+</html>
